@@ -1,4 +1,7 @@
 def caesar(letter, schift)
-  result = letter.ord + schift
-  result.chr
+    result = word.split("")
+    result = result.map do |letter|
+      letter = letter.ord + shift
+      letter.chr
+    end
 end
